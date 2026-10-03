@@ -56,12 +56,6 @@ Passionate about architecting resilient backend services, real-time media stream
 - Automated CLI utility for batch video and audio extraction, audio stream separation, and format normalization.
 - Handles complex command-line media operations with structured configuration profiles.
 - **Repository:** [Sharon-ctl/YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-)
-
-### Melora Web Platform
-*Frontend companion portal and web dashboard for the Melora ecosystem*
-- Built with TypeScript, HTML5, and CSS to provide operational status, documentation, and user interfaces.
-- **Repository:** [Sharon-ctl/Music](https://github.com/Sharon-ctl/Music)
-
 ---
 
 ## Technical Skills
