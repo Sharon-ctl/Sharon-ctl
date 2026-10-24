@@ -1,0 +1,17 @@
+<svg width="800" height="300" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Melora — Discord music bots</title>
+  <desc id="desc">A custom illustration of three connected bot implementations and an interactive music queue.</desc>
+  <defs>
+    <linearGradient id="bg" x1="42" y1="8" x2="770" y2="299" gradientUnits="userSpaceOnUse"><stop stop-color="#121E2B"/><stop offset="0.55" stop-color="#17283A"/><stop offset="1" stop-color="#27213B"/></linearGradient>
+    <linearGradient id="line" x1="220" y1="137" x2="555" y2="137" gradientUnits="userSpaceOnUse"><stop stop-color="#67D6C5"/><stop offset="1" stop-color="#A891F2"/></linearGradient>
+  </defs>
+  <rect width="800" height="300" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="798" height="298" rx="23" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="42" y="55" fill="#F4F7FB" font-family="Arial,sans-serif" font-size="25" font-weight="700">MELORA</text><text x="43" y="78" fill="#AAB8CA" font-family="Arial,sans-serif" font-size="12">One music project · three implementations</text>
+  <path d="M188 148H606" stroke="url(#line)" stroke-width="2" stroke-dasharray="5 7"/>
+  <g><rect x="52" y="111" width="185" height="77" rx="16" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.15"/><circle cx="82" cy="149" r="14" fill="#67D6C5" fill-opacity="0.2"/><text x="108" y="143" fill="#F4F7FB" font-family="Arial,sans-serif" font-size="15" font-weight="700">Java</text><text x="108" y="164" fill="#AAB8CA" font-family="monospace" font-size="10">FEATURE-RICH</text></g>
+  <g><rect x="307" y="111" width="185" height="77" rx="16" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.15"/><circle cx="337" cy="149" r="14" fill="#78A9F8" fill-opacity="0.2"/><text x="363" y="143" fill="#F4F7FB" font-family="Arial,sans-serif" font-size="15" font-weight="700">Python</text><text x="363" y="164" fill="#AAB8CA" font-family="monospace" font-size="10">RESILIENT</text></g>
+  <g><rect x="562" y="111" width="185" height="77" rx="16" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.15"/><circle cx="592" cy="149" r="14" fill="#B696F5" fill-opacity="0.2"/><text x="618" y="143" fill="#F4F7FB" font-family="Arial,sans-serif" font-size="15" font-weight="700">TypeScript</text><text x="618" y="164" fill="#AAB8CA" font-family="monospace" font-size="10">LIGHTWEIGHT</text></g>
+  <rect x="52" y="219" width="696" height="48" rx="13" fill="#0D131D" fill-opacity="0.5" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <circle cx="81" cy="243" r="11" fill="#67D6C5" fill-opacity="0.2"/><path d="M78 237V249L87 243L78 237Z" fill="#A9F1E7"/><text x="104" y="241" fill="#F4F7FB" font-family="Arial,sans-serif" font-size="12" font-weight="600">Now playing</text><text x="104" y="256" fill="#AAB8CA" font-family="Arial,sans-serif" font-size="11">Lavalink · slash commands · self-hosted</text>
+  <path d="M490 243H719" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="3" stroke-linecap="round"/><path d="M490 243H615" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/><circle cx="615" cy="243" r="5" fill="#C8B9FF"/>
+</svg>

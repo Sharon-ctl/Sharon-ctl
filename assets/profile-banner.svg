@@ -1,0 +1,43 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sharon — software developer</title>
+  <desc id="desc">A midnight blue portfolio banner with flowing audio waveforms and the words Backend systems, media infrastructure, and developer tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="42" y1="21" x2="1116" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#17253A"/>
+      <stop offset="1" stop-color="#202039"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="650" y1="164" x2="1173" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#65D6C4" stop-opacity="0.1"/>
+      <stop offset="0.45" stop-color="#65D6C4"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(500 0 0 250 1030 90)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B7CF6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8B7CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#DDE7F5" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="27" stroke="#DDE7F5" stroke-opacity="0.12"/>
+  <rect x="650" y="25" width="520" height="290" fill="url(#dots)" opacity="0.54"/>
+  <path d="M654 181H713L731 151L751 221L773 113L795 243L817 166L837 192L857 136L878 211L901 168L919 182L940 150L960 202L980 161L1000 188L1019 143L1040 216L1062 161L1081 189L1103 154L1121 180H1175" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M654 195H712L731 176L751 211L773 151L795 229L817 180L837 195L857 164L878 216L901 181L919 192L940 171L960 208L980 179L1000 197L1019 166L1040 222L1062 181L1081 197L1103 172L1121 191H1175" stroke="#A7F3E8" stroke-opacity="0.18" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="72" y="62" width="40" height="4" rx="2" fill="#65D6C4"/>
+  <text x="72" y="140" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Sharon</text>
+  <text x="74" y="184" fill="#D7E1EF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500">Building thoughtful software for sound, systems, and play.</text>
+  <g font-family="JetBrains Mono,Consolas,monospace" font-size="13" font-weight="500" fill="#DCE7F5">
+    <rect x="72" y="228" width="97" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="94" y="250">PYTHON</text>
+    <rect x="181" y="228" width="76" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="202" y="250">RUST</text>
+    <rect x="269" y="228" width="88" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="288" y="250">JAVA</text>
+    <rect x="369" y="228" width="128" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="388" y="250">TYPESCRIPT</text>
+  </g>
+  <text x="74" y="298" fill="#A9B8CA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Asynchronous systems  ·  audio infrastructure  ·  developer tools</text>
+</svg>

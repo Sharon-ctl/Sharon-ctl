@@ -1,107 +1,74 @@
 <div align="center">
-
-# Sharon
-**Software Engineer | Backend, Media Infrastructure & Asynchronous Systems**
-
-```
-Python  |  Java  |  TypeScript  |  PowerShell  |  Docker  |  Distributed Audio
-```
-
-Passionate about architecting resilient backend services, real-time media streaming clients, and fault-tolerant automation pipelines.
-
----
-
+  <img src="./assets/profile-banner.svg" alt="Sharon — building thoughtful software for sound, systems, and play" width="100%" />
+  <br />
+  <a href="https://github.com/Sharon-ctl"><img src="https://img.shields.io/badge/GitHub-Sharon--ctl-202938?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" /></a>
+  <a href="https://discord.gg/KUAVNSJtu5"><img src="https://img.shields.io/badge/Discord-Connect-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/Sharon-ctl?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-65D6C4?style=flat-square&logo=github&logoColor=111827" alt="Explore projects" /></a>
 </div>
 
-## Engineering Focus
+## Hi, I'm Sharon
 
-- **Audio & Media Streaming:** Comprehensive domain experience building high-throughput audio infrastructure across Python, Java, and TypeScript ecosystems utilizing Lavalink, Lavaplayer, and JDA.
-- **Asynchronous Architecture:** Specializing in event loops, non-blocking I/O, circuit breakers, and bounded token-bucket rate limiting for zero-downtime operation.
-- **Data Ingestion & Automation:** Building continuous background monitors, RSS parsers, automated translation layers, and media transcoding pipelines.
-- **Software Reliability:** Rigorous test-driven development featuring extensive unit test suites, soak tests for memory leak detection, and automated CI/CD workflows.
+I build software around **real-time audio, resilient services, and useful developer tools**. My projects range from cross-platform desktop media software to Discord music systems and experiments with autonomous game agents.
 
----
+I care about the details that make software dependable: clear interfaces, responsive async systems, thoughtful failure handling, and practical performance work.
 
-## Featured Work
+## Featured projects
 
-### Melora.py
-*Production-grade Discord music bot client built with Python 3.11, discord.py, and lavalink.py*
-- Engineered for unattended 24/7 operation with crash-recovery supervisors and watchdog health monitors.
-- Centralized sliding-window rate limiting with LRU cache eviction and bounded memory consumption.
-- Comprehensive test suite of 171 automated unit tests and continuous integration via GitHub Actions.
-- Modern Discord Components V2 interface with dynamic pagination, responsive action rows, and zero interaction timeouts.
-- **Repository:** [Sharon-ctl/Melora.py](https://github.com/Sharon-ctl/Melora.py)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Sharon-ctl/Mewsic"><img src="./assets/mewsic-card.svg" alt="Mewsic — offline-first desktop music player" width="100%" /></a>
+      <h3><a href="https://github.com/Sharon-ctl/Mewsic">Mewsic</a></h3>
+      <p>Offline-first desktop music player built with Rust, Tauri, and React. Includes a fast local library, broad audio metadata support, native media controls, and integrated search and downloads.</p>
+      <p><code>Rust</code> <code>Tauri</code> <code>React</code> <code>TypeScript</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Sharon-ctl/Melora.py"><img src="./assets/melora-card.svg" alt="Melora — Java, Python, and TypeScript Discord music bots" width="100%" /></a>
+      <h3><a href="https://github.com/Sharon-ctl/Melora.py">Melora music bots</a></h3>
+      <p>A family of self-hosted Discord music bots in Python, Java, and TypeScript. The Python edition focuses on multi-node Lavalink resilience and recovery; Java offers a deep feature set; TypeScript keeps the core experience lightweight.</p>
+      <p><a href="https://github.com/Sharon-ctl/Melora.py">Python</a> · <a href="https://github.com/Sharon-ctl/Melora-Java">Java</a> · <a href="https://github.com/Sharon-ctl/Melora.js">TypeScript</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Sharon-ctl/usForever"><img src="./assets/usforever-card.svg" alt="usForever — autonomous Minecraft companion with an observe, reason, and act loop" width="100%" /></a>
+      <h3><a href="https://github.com/Sharon-ctl/usForever">usForever</a></h3>
+      <p>An experimental autonomous Minecraft companion. A LangGraph observe–reason–act loop connects pluggable model providers to in-game tools, with timeouts, watchdogs, and action limits to keep behavior bounded.</p>
+      <p><code>Node.js</code> <code>LangGraph</code> <code>Minecraft</code> <code>LLMs</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sharon-ctl/YT-Downloader-">YTDL Toolkit</a></h3>
+      <p>A Windows media workflow built around yt-dlp and FFmpeg. A guided interface handles downloads, playlists, subtitles, metadata, format choices, and maintenance.</p>
+      <p><code>PowerShell</code> <code>yt-dlp</code> <code>FFmpeg</code></p>
+      <h3><a href="https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot">Online-Fix Tracker</a></h3>
+      <p>A Discord bot that monitors a game-release RSS feed, translates updates, and delivers searchable, paginated posts to configured channels.</p>
+      <p><code>Python</code> <code>Discord</code> <code>RSS</code></p>
+    </td>
+  </tr>
+</table>
 
-### Melora-Java
-*High-performance audio streaming bot built with Java, JDA, and Lavaplayer*
-- Multi-threaded architecture optimized for high-volume audio processing and multi-guild concurrency.
-- Native integration with Lavaplayer for seamless track loading, audio buffering, and low-latency playback.
-- **Repository:** [Sharon-ctl/Melora-Java](https://github.com/Sharon-ctl/Melora-Java)
-
-### Melora (TypeScript)
-*Lightweight, event-driven audio client built with TypeScript*
-- Type-safe, modular implementation focusing on fast playback initialization and clean slash-command interaction.
-- Designed for minimal resource footprint and modern Node.js runtimes.
-- **Repository:** [Sharon-ctl/Melora](https://github.com/Sharon-ctl/Melora)
-
-### Online-Fix Tracker
-*Automated feed monitoring and translation service built with Python and Docker*
-- Continuous RSS polling with real-time XML ingestion and deduplication.
-- Automated Russian-to-English translation pipeline utilizing Google Translate integration.
-- Containerized with Docker for straightforward deployment and environment consistency.
-- **Repository:** [Sharon-ctl/Online-fix-request-sending-dc-bot](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot)
-
-### YTDL Toolkit
-*Media extraction and transcoding suite powered by PowerShell, yt-dlp, and FFmpeg*
-- Automated CLI utility for batch video and audio extraction, audio stream separation, and format normalization.
-- Handles complex command-line media operations with structured configuration profiles.
-- **Repository:** [Sharon-ctl/YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-)
----
-
-## Technical Skills
-
-### Programming Languages
-- Python
-- Java
-- TypeScript
-- JavaScript
-- PowerShell
-- SQL
-- HTML5 / CSS3
-
-### Frameworks & Ecosystems
-- discord.py
-- JDA (Java Discord API)
-- Lavalink / Lavaplayer
-- Asyncio
-- Pytest
-- Ruff
-
-### Infrastructure, DevOps & Media
-- Docker
-- GitHub Actions (CI/CD)
-- Git
-- FFmpeg
-- yt-dlp
-- SQLite
-
----
-
-## GitHub Analytics
+## What I work with
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Sharon-ctl&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" alt="GitHub Stats" height="175" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sharon-ctl&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5" alt="Top Languages" height="175" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=Sharon-ctl&theme=tokyonight&hide_border=true&background=0d1117&ring=7aa2f7&fire=ff9e64&currStreakLabel=7aa2f7" alt="GitHub Streak" />
-
+  <img src="https://img.shields.io/badge/Rust-CE6B43?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=111827" alt="Tauri" />
+  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord.py" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </div>
 
----
+**Areas I enjoy:** asynchronous systems · audio and media pipelines · bot architecture · desktop applications · automation · reliability and performance
+
+## Find me
+
+- Browse [all repositories](https://github.com/Sharon-ctl?tab=repositories)
+- Connect on [Discord](https://discord.gg/KUAVNSJtu5)
 
 <div align="center">
-  <sub>Sharon | Software Engineer | <a href="https://github.com/Sharon-ctl">GitHub Profile</a></sub>
+  <sub>Thanks for stopping by — feel free to explore, open an issue, or say hello.</sub>
 </div>
