@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" role="img" aria-labelledby="title desc">
+<title id="title">Recent public push activity</title>
+<desc id="desc">18 public push events, grouped by weekday and UTC hour.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#14243a"/><stop offset="1" stop-color="#101a2a"/></linearGradient></defs>
+<rect width="900" height="310" rx="22" fill="url(#bg)" stroke="#34475c"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#edf5f7">
+<text x="30" y="42" font-size="19" font-weight="700">When public pushes happened</text>
+<text x="30" y="65" font-size="12" fill="#a8bac8">Latest public event sample · 18 pushes · UTC</text>
+<text x="30" y="101" font-size="12" fill="#b5c5d2">By weekday</text>
+<rect x="30" y="153" width="42" height="12" rx="4" fill="#67d9c4" opacity="0.54"/>
+<text x="51" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Mon</text>
+<text x="51" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">2</text>
+<rect x="92" y="153" width="42" height="12" rx="4" fill="#67d9c4" opacity="0.54"/>
+<text x="113" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Tue</text>
+<text x="113" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">2</text>
+<rect x="154" y="165" width="42" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<text x="175" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Wed</text>
+<text x="175" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">0</text>
+<rect x="216" y="159" width="42" height="6" rx="4" fill="#67d9c4" opacity="0.46"/>
+<text x="237" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Thu</text>
+<text x="237" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">1</text>
+<rect x="278" y="165" width="42" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<text x="299" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Fri</text>
+<text x="299" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">0</text>
+<rect x="340" y="116" width="42" height="49" rx="4" fill="#67d9c4" opacity="1.00"/>
+<text x="361" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Sat</text>
+<text x="361" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">8</text>
+<rect x="402" y="134" width="42" height="31" rx="4" fill="#67d9c4" opacity="0.77"/>
+<text x="423" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Sun</text>
+<text x="423" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">5</text>
+<text x="500" y="101" font-size="12" fill="#b5c5d2">By hour of day</text>
+<rect x="500" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<text x="505" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">00</text>
+<rect x="515" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="531" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="546" y="127" width="10" height="40" rx="4" fill="#67d9c4" opacity="0.84"/>
+<text x="551" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">03</text>
+<rect x="561" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="576" y="154" width="10" height="13" rx="4" fill="#67d9c4" opacity="0.54"/>
+<rect x="592" y="154" width="10" height="13" rx="4" fill="#67d9c4" opacity="0.54"/>
+<text x="597" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">06</text>
+<rect x="607" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="622" y="141" width="10" height="26" rx="4" fill="#67d9c4" opacity="0.69"/>
+<rect x="638" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<text x="643" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">09</text>
+<rect x="653" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="668" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="684" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<text x="689" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">12</text>
+<rect x="699" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="714" y="114" width="10" height="53" rx="4" fill="#67d9c4" opacity="1.00"/>
+<rect x="730" y="127" width="10" height="40" rx="4" fill="#67d9c4" opacity="0.84"/>
+<text x="734" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">15</text>
+<rect x="745" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="760" y="154" width="10" height="13" rx="4" fill="#67d9c4" opacity="0.54"/>
+<rect x="775" y="127" width="10" height="40" rx="4" fill="#67d9c4" opacity="0.84"/>
+<text x="780" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">18</text>
+<rect x="791" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="806" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="821" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<text x="826" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">21</text>
+<rect x="837" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="852" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<line x1="30" y1="226" x2="870" y2="226" stroke="#34475c"/>
+<text x="30" y="253" font-size="12" fill="#d7e4e9">Activity snapshot, refreshed weekly from GitHub public events.</text>
+<text x="30" y="275" font-size="11" fill="#91a6b6">Event API is capped; this is not a complete history or an availability schedule.</text>
+</g></svg>
