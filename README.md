@@ -6,6 +6,10 @@
   <a href="https://github.com/Sharon-ctl?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-65D6C4?style=flat-square&logo=github&logoColor=111827" alt="Explore projects" /></a>
 </div>
 
+<div align="center">
+  <sub><a href="#featured-projects">Featured projects</a> &nbsp;·&nbsp; <a href="#engineering-highlights">Engineering highlights</a> &nbsp;·&nbsp; <a href="#what-i-work-with">Tech stack</a> &nbsp;·&nbsp; <a href="#find-me">Contact</a></sub>
+</div>
+
 ## Hi, I'm Sharon
 
 I build software around **real-time audio, resilient services, and useful developer tools**. My projects range from cross-platform desktop media software to Discord music systems and experiments with autonomous game agents.
@@ -46,6 +50,20 @@ I care about the details that make software dependable: clear interfaces, respon
     </td>
   </tr>
 </table>
+
+## Engineering highlights
+
+| Project | A few implementation details |
+| --- | --- |
+| **Mewsic** | Parallel library scanning, cached cover-art thumbnails, virtualized track lists, and native desktop media controls. |
+| **Melora.py** | Multi-node Lavalink balancing and failover, supervised background tasks, player recovery, and a README-documented suite of 238 tests. |
+| **usForever** | A 3-second observe/reason/act loop, provider and tool timeouts, and a 45-second ceiling for each agent cycle. |
+
+## How I approach software
+
+- **Bound the work:** queues, retries, background tasks, and agent actions should have clear limits.
+- **Plan for failure:** recover or fail clearly when a node, provider, or external service becomes unavailable.
+- **Make the interface useful:** keep the powerful parts discoverable without making everyday tasks harder.
 
 ## What I work with
 
