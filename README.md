@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <sub><a href="#original-projects">Projects</a> &nbsp;·&nbsp; <a href="#workflow">Workflow</a> &nbsp;·&nbsp; <a href="#recent-work-pattern">Activity</a> &nbsp;·&nbsp; <a href="#contact">Contact</a></sub>
+  <sub><a href="#original-projects">Projects</a> &nbsp;·&nbsp; <a href="#live-project-status">Project status</a> &nbsp;·&nbsp; <a href="#recent-work-pattern">Activity</a> &nbsp;·&nbsp; <a href="#contact">Contact</a></sub>
 </div>
 
 ## Hi, I'm Sharon
@@ -37,12 +37,19 @@ These are my original public projects; forked repositories are left out.
   </tr>
 </table>
 
-## Workflow
+## Live project status
 
-| Project | Automation | Latest status |
-| --- | --- | --- |
-| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [CI](https://github.com/Sharon-ctl/Melora.py/actions/workflows/ci.yml) | [![CI](https://github.com/Sharon-ctl/Melora.py/actions/workflows/ci.yml/badge.svg)](https://github.com/Sharon-ctl/Melora.py/actions/workflows/ci.yml) |
-| [Melora-Java](https://github.com/Sharon-ctl/Melora-Java) | [CodeQL Advanced](https://github.com/Sharon-ctl/Melora-Java/actions/workflows/codeql.yml) · [Build and Release](https://github.com/Sharon-ctl/Melora-Java/actions/workflows/release.yml) | [![CodeQL](https://github.com/Sharon-ctl/Melora-Java/actions/workflows/codeql.yml/badge.svg)](https://github.com/Sharon-ctl/Melora-Java/actions/workflows/codeql.yml) |
+<!-- PROJECT_STATUS:START -->
+| Project | CI / checks | Last push (UTC) | Open issues / PRs |
+| --- | --- | --- | ---: |
+| [Melora-Java](https://github.com/Sharon-ctl/Melora-Java) | [Passing (CI)](https://github.com/Sharon-ctl/Melora-Java/actions/runs/40186787756) | 2026-10-25 | 5 |
+| [Melora.js](https://github.com/Sharon-ctl/Melora.js) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.js/actions/runs/40186789199) | 2026-10-25 | 4 |
+| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.py/actions/runs/40187005125) | 2026-10-25 | 0 |
+| [Online-fix-request-sending-dc-bot](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot) | No CI configured | 2026-06-28 | 0 |
+| [YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-) | No CI configured | 2026-08-04 | 0 |
+<!-- PROJECT_STATUS:END -->
+
+Status is refreshed hourly from GitHub for original public repositories only. Forks and this profile repository are excluded.
 
 ## Recent work pattern
 

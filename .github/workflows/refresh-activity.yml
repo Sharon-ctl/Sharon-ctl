@@ -1,9 +1,9 @@
-name: Refresh profile activity chart
+name: Refresh profile project monitor
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 5 * * 1'
+    - cron: '17 * * * *'
 
 permissions:
   contents: write
@@ -18,14 +18,18 @@ jobs:
           python-version: '3.x'
       - name: Regenerate chart
         run: python scripts/update_push_activity.py
-      - name: Commit updated chart
+      - name: Refresh original project status
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/update_project_status.py
+      - name: Commit updated dashboard
         run: |
-          if git diff --quiet -- assets/push-activity.svg; then
-            echo "Activity chart is already current."
+          if git diff --quiet -- README.md assets/push-activity.svg; then
+            echo "Project dashboard is already current."
             exit 0
           fi
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add assets/push-activity.svg
-          git commit -m "Refresh public push activity chart"
+          git add README.md assets/push-activity.svg
+          git commit -m "Refresh live profile project status"
           git push
