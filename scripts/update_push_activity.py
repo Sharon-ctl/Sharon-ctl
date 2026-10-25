@@ -64,7 +64,7 @@ def main():
             parts.append(f'<text x="{round(x+5)}" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">{hour:02d}</text>')
     parts.extend([
         '<line x1="30" y1="226" x2="870" y2="226" stroke="#34475c"/>',
-        '<text x="30" y="253" font-size="12" fill="#d7e4e9">Activity snapshot, refreshed weekly from GitHub public events.</text>',
+        '<text x="30" y="253" font-size="12" fill="#d7e4e9">Activity snapshot, refreshed hourly from GitHub public events.</text>',
         '<text x="30" y="275" font-size="11" fill="#91a6b6">Event API is capped; this is not a complete history or an availability schedule.</text>',
         '</g></svg>',
     ])
