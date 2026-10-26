@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" role="img" aria-labelledby="title desc">
 <title id="title">Recent public push activity</title>
-<desc id="desc">44 public push events, grouped by weekday and UTC hour.</desc>
+<desc id="desc">45 public push events, grouped by weekday and UTC hour.</desc>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#14243a"/><stop offset="1" stop-color="#101a2a"/></linearGradient></defs>
 <rect width="900" height="310" rx="22" fill="url(#bg)" stroke="#34475c"/>
 <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#edf5f7">
 <text x="30" y="42" font-size="19" font-weight="700">When public pushes happened</text>
-<text x="30" y="65" font-size="12" fill="#a8bac8">Latest public event sample · 44 pushes · UTC</text>
+<text x="30" y="65" font-size="12" fill="#a8bac8">Latest public event sample · 45 pushes · UTC</text>
 <text x="30" y="101" font-size="12" fill="#b5c5d2">By weekday</text>
-<rect x="30" y="161" width="42" height="4" rx="4" fill="#67d9c4" opacity="0.42"/>
+<rect x="30" y="160" width="42" height="5" rx="4" fill="#67d9c4" opacity="0.45"/>
 <text x="51" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Mon</text>
-<text x="51" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">2</text>
+<text x="51" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">3</text>
 <rect x="92" y="161" width="42" height="4" rx="4" fill="#67d9c4" opacity="0.42"/>
 <text x="113" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Tue</text>
 <text x="113" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">2</text>
@@ -35,7 +35,7 @@
 <rect x="531" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <rect x="546" y="156" width="10" height="11" rx="4" fill="#67d9c4" opacity="0.51"/>
 <text x="551" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">03</text>
-<rect x="561" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="561" y="163" width="10" height="4" rx="4" fill="#67d9c4" opacity="0.42"/>
 <rect x="576" y="163" width="10" height="4" rx="4" fill="#67d9c4" opacity="0.42"/>
 <rect x="592" y="163" width="10" height="4" rx="4" fill="#67d9c4" opacity="0.42"/>
 <text x="597" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">06</text>
