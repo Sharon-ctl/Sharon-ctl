@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" role="img" aria-labelledby="title desc">
 <title id="title">Recent public push activity</title>
-<desc id="desc">40 public push events, grouped by weekday and UTC hour.</desc>
+<desc id="desc">41 public push events, grouped by weekday and UTC hour.</desc>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#14243a"/><stop offset="1" stop-color="#101a2a"/></linearGradient></defs>
 <rect width="900" height="310" rx="22" fill="url(#bg)" stroke="#34475c"/>
 <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#edf5f7">
 <text x="30" y="42" font-size="19" font-weight="700">When public pushes happened</text>
-<text x="30" y="65" font-size="12" fill="#a8bac8">Latest public event sample · 40 pushes · UTC</text>
+<text x="30" y="65" font-size="12" fill="#a8bac8">Latest public event sample · 41 pushes · UTC</text>
 <text x="30" y="101" font-size="12" fill="#b5c5d2">By weekday</text>
 <rect x="30" y="154" width="42" height="11" rx="4" fill="#67d9c4" opacity="0.52"/>
 <text x="51" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Mon</text>
@@ -16,9 +16,9 @@
 <rect x="154" y="165" width="42" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <text x="175" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Wed</text>
 <text x="175" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">0</text>
-<rect x="216" y="161" width="42" height="4" rx="4" fill="#67d9c4" opacity="0.43"/>
+<rect x="216" y="159" width="42" height="6" rx="4" fill="#67d9c4" opacity="0.45"/>
 <text x="237" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Thu</text>
-<text x="237" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">2</text>
+<text x="237" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">3</text>
 <rect x="278" y="165" width="42" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <text x="299" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Fri</text>
 <text x="299" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">0</text>
@@ -48,7 +48,7 @@
 <rect x="684" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <text x="689" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">12</text>
 <rect x="699" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
-<rect x="714" y="147" width="10" height="20" rx="4" fill="#67d9c4" opacity="0.61"/>
+<rect x="714" y="144" width="10" height="23" rx="4" fill="#67d9c4" opacity="0.65"/>
 <rect x="730" y="154" width="10" height="13" rx="4" fill="#67d9c4" opacity="0.54"/>
 <text x="734" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">15</text>
 <rect x="745" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
