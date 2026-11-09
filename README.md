@@ -44,7 +44,7 @@ These are my original public projects; forked repositories are left out.
 | --- | --- | --- | ---: |
 | [Melora-Java](https://github.com/Sharon-ctl/Melora-Java) | [Passing (CI)](https://github.com/Sharon-ctl/Melora-Java/actions/runs/42495271439) | 2026-11-06 | 2 |
 | [Melora.js](https://github.com/Sharon-ctl/Melora.js) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.js/actions/runs/42494572254) | 2026-11-09 | 1 |
-| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.py/actions/runs/42493499634) | 2026-11-05 | 1 |
+| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Running (CI)](https://github.com/Sharon-ctl/Melora.py/actions/runs/42677165774) | 2026-11-05 | 1 |
 | [Online-fix-request-sending-dc-bot](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot) | No CI configured | 2026-06-28 | 0 |
 | [YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-) | No CI configured | 2026-08-04 | 0 |
 <!-- PROJECT_STATUS:END -->
