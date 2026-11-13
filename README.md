@@ -42,9 +42,9 @@ These are my original public projects; forked repositories are left out.
 <!-- PROJECT_STATUS:START -->
 | Project | CI / checks | Last push (UTC) | Open issues / PRs |
 | --- | --- | --- | ---: |
-| [Melora-Java](https://github.com/Sharon-ctl/Melora-Java) | [Passing (CI)](https://github.com/Sharon-ctl/Melora-Java/actions/runs/43264984457) | 2026-11-11 | 2 |
-| [Melora.js](https://github.com/Sharon-ctl/Melora.js) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.js/actions/runs/43263674658) | 2026-11-09 | 1 |
-| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Running (CI)](https://github.com/Sharon-ctl/Melora.py/actions/runs/43461740251) | 2026-11-05 | 1 |
+| [Melora-Java](https://github.com/Sharon-ctl/Melora-Java) | [Passing (CI)](https://github.com/Sharon-ctl/Melora-Java/actions/runs/43465339806) | 2026-11-11 | 2 |
+| [Melora.js](https://github.com/Sharon-ctl/Melora.js) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.js/actions/runs/43463919464) | 2026-11-09 | 1 |
+| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.py/actions/runs/43461740251) | 2026-11-05 | 1 |
 | [Online-fix-request-sending-dc-bot](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot) | No CI configured | 2026-06-28 | 0 |
 | [YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-) | No CI configured | 2026-08-04 | 0 |
 <!-- PROJECT_STATUS:END -->
