@@ -16,15 +16,15 @@
 <rect x="154" y="165" width="42" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <text x="175" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Wed</text>
 <text x="175" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">0</text>
-<rect x="216" y="159" width="42" height="6" rx="4" fill="#67d9c4" opacity="0.45"/>
+<rect x="216" y="161" width="42" height="4" rx="4" fill="#67d9c4" opacity="0.43"/>
 <text x="237" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Thu</text>
-<text x="237" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">3</text>
+<text x="237" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">2</text>
 <rect x="278" y="165" width="42" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <text x="299" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Fri</text>
 <text x="299" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">0</text>
-<rect x="340" y="159" width="42" height="6" rx="4" fill="#67d9c4" opacity="0.45"/>
+<rect x="340" y="157" width="42" height="8" rx="4" fill="#67d9c4" opacity="0.48"/>
 <text x="361" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Sat</text>
-<text x="361" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">3</text>
+<text x="361" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">4</text>
 <rect x="402" y="116" width="42" height="49" rx="4" fill="#67d9c4" opacity="1.00"/>
 <text x="423" y="183" text-anchor="middle" font-size="10" fill="#b5c5d2">Sun</text>
 <text x="423" y="201" text-anchor="middle" font-size="10" fill="#edf5f7">25</text>
@@ -37,10 +37,10 @@
 <text x="551" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">03</text>
 <rect x="561" y="147" width="10" height="20" rx="4" fill="#67d9c4" opacity="0.61"/>
 <rect x="576" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
-<rect x="592" y="164" width="10" height="3" rx="4" fill="#67d9c4" opacity="0.42"/>
+<rect x="592" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <text x="597" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">06</text>
 <rect x="607" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
-<rect x="622" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
+<rect x="622" y="164" width="10" height="3" rx="4" fill="#67d9c4" opacity="0.42"/>
 <rect x="638" y="164" width="10" height="3" rx="4" fill="#223247" opacity="1.00"/>
 <text x="643" y="184" text-anchor="middle" font-size="9" fill="#b5c5d2">09</text>
 <rect x="653" y="114" width="10" height="53" rx="4" fill="#67d9c4" opacity="1.00"/>
