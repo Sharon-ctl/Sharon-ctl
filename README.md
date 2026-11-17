@@ -1,7 +1,6 @@
 <div align="center">
   <img src="./assets/profile-banner.svg" alt="Sharon — building thoughtful software for sound, systems, and play" width="100%" />
   <br />
-  <a href="https://github.com/Sharon-ctl"><img src="https://img.shields.io/badge/GitHub-Sharon--ctl-202938?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" /></a>
   <a href="https://discord.gg/KUAVNSJtu5"><img src="https://img.shields.io/badge/Discord-Connect-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://melora-info.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-65D6C4?style=flat-square&logo=vercel&logoColor=111827" alt="Portfolio" /></a>
 </div>
@@ -62,12 +61,10 @@ This chart summarizes timestamps from the latest public GitHub events available 
 ## What I work with
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Rust-CE6B43?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=111827" alt="Tauri" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
   <img src="https://img.shields.io/badge/Discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord.py" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
 </div>
