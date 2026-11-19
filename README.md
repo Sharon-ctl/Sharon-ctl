@@ -2,7 +2,7 @@
   <img src="./assets/profile-banner.svg" alt="Sharon — building thoughtful software for sound, systems, and play" width="100%" />
   <br />
   <a href="https://discord.gg/KUAVNSJtu5"><img src="https://img.shields.io/badge/Discord-Connect-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://melora-info.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-65D6C4?style=flat-square&logo=vercel&logoColor=111827" alt="Portfolio" /></a>
+  <a href="https://sharon-ctl.github.io/"><img src="https://img.shields.io/badge/Portfolio-Visit-65D6C4?style=flat-square&logo=vercel&logoColor=111827" alt="Portfolio" /></a>
 </div>
 
 <div align="center">
