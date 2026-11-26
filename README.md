@@ -45,7 +45,7 @@ These are my original public projects; forked repositories are left out.
 | [Melora.js](https://github.com/Sharon-ctl/Melora.js) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.js/actions/runs/45677904059) | 2026-11-17 | 1 |
 | [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Passing (CI)](https://github.com/Sharon-ctl/Melora.py/actions/runs/45677215036) | 2026-11-23 | 1 |
 | [Online-fix-request-sending-dc-bot](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot) | [Passing (CI)](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot/actions/runs/43989659317) | 2026-11-17 | 0 |
-| [Sharon-ctl.github.io](https://github.com/Sharon-ctl/Sharon-ctl.github.io) | [Passing (pages-build-deployment)](https://github.com/Sharon-ctl/Sharon-ctl.github.io/actions/runs/44620926042) | 2026-11-19 | 0 |
+| [Sharon-ctl.github.io](https://github.com/Sharon-ctl/Sharon-ctl.github.io) | [Passing (pages-build-deployment)](https://github.com/Sharon-ctl/Sharon-ctl.github.io/actions/runs/45762833461) | 2026-11-26 | 0 |
 | [YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-) | No CI configured | 2026-11-17 | 0 |
 <!-- PROJECT_STATUS:END -->
 
