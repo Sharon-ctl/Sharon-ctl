@@ -1,64 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="216" viewBox="0 0 900 216" role="img" aria-labelledby="title desc">
 <title id="title">Recent public push activity</title>
 <desc id="desc">21 recent public push events, grouped by weekday and by UTC hour.</desc>
-<rect width="900" height="250" rx="18" fill="#111115"/>
-<rect x="0.5" y="0.5" width="899" height="249" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
-<line x1="19" y1="0.5" x2="881" y2="0.5" stroke="#ffffff" stroke-opacity="0.16"/>
-<text x="32" y="46" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#ffffff">Push activity</text>
-<text x="32" y="68" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#71717a">last 21 public pushes · UTC</text>
-<text x="32" y="104" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#71717a">BY WEEKDAY</text>
-<rect x="32" y="175" width="40" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="52" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Mon</text>
-<text x="52" y="214" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
-<rect x="92" y="140" width="40" height="38" rx="3" fill="#ffffff" fill-opacity="0.82"/>
-<text x="112" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Tue</text>
-<text x="112" y="214" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">8</text>
-<rect x="152" y="175" width="40" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="172" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Wed</text>
-<text x="172" y="214" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
-<rect x="212" y="126" width="40" height="52" rx="3" fill="#ffffff" fill-opacity="1.00"/>
-<text x="232" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Thu</text>
-<text x="232" y="214" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">11</text>
-<rect x="272" y="175" width="40" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="292" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Fri</text>
-<text x="292" y="214" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
-<rect x="332" y="169" width="40" height="9" rx="3" fill="#ffffff" fill-opacity="0.47"/>
-<text x="352" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Sat</text>
-<text x="352" y="214" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">2</text>
-<rect x="392" y="175" width="40" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="412" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Sun</text>
-<text x="412" y="214" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
-<text x="500" y="104" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#71717a">BY HOUR</text>
-<rect x="500" y="135" width="10" height="43" rx="3" fill="#ffffff" fill-opacity="0.89"/>
-<text x="505" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">00</text>
-<rect x="515" y="169" width="10" height="9" rx="3" fill="#ffffff" fill-opacity="0.46"/>
-<rect x="531" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="546" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="551" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">03</text>
-<rect x="562" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="577" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="592" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="597" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">06</text>
-<rect x="608" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="623" y="169" width="10" height="9" rx="3" fill="#ffffff" fill-opacity="0.46"/>
-<rect x="639" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="644" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">09</text>
-<rect x="654" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="669" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="685" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="690" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">12</text>
-<rect x="700" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="716" y="161" width="10" height="17" rx="3" fill="#ffffff" fill-opacity="0.57"/>
-<rect x="731" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="736" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">15</text>
-<rect x="746" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="762" y="161" width="10" height="17" rx="3" fill="#ffffff" fill-opacity="0.57"/>
-<rect x="777" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<text x="782" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">18</text>
-<rect x="793" y="152" width="10" height="26" rx="3" fill="#ffffff" fill-opacity="0.68"/>
-<rect x="808" y="126" width="10" height="52" rx="3" fill="#ffffff" fill-opacity="1.00"/>
-<rect x="823" y="169" width="10" height="9" rx="3" fill="#ffffff" fill-opacity="0.46"/>
-<text x="828" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">21</text>
-<rect x="839" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
-<rect x="854" y="175" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect width="900" height="216" rx="18" fill="#111115"/>
+<rect x="0.5" y="0.5" width="899" height="215" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+<text x="32" y="42" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#ffffff">Push activity</text>
+<text x="32" y="62" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#71717a">last 21 public pushes · UTC</text>
+<text x="32" y="92" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#71717a">BY WEEKDAY</text>
+<rect x="32" y="157" width="34" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="49" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Mon</text>
+<text x="49" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
+<rect x="92" y="125" width="34" height="35" rx="3" fill="#ffffff" fill-opacity="0.82"/>
+<text x="109" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Tue</text>
+<text x="109" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">8</text>
+<rect x="152" y="157" width="34" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="169" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Wed</text>
+<text x="169" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
+<rect x="212" y="112" width="34" height="48" rx="3" fill="#ffffff" fill-opacity="1.00"/>
+<text x="229" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Thu</text>
+<text x="229" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">11</text>
+<rect x="272" y="157" width="34" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="289" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Fri</text>
+<text x="289" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
+<rect x="332" y="151" width="34" height="9" rx="3" fill="#ffffff" fill-opacity="0.47"/>
+<text x="349" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Sat</text>
+<text x="349" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">2</text>
+<rect x="392" y="157" width="34" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="409" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a1a1aa">Sun</text>
+<text x="409" y="196" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f4f4f6">0</text>
+<text x="500" y="92" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#71717a">BY HOUR</text>
+<rect x="500" y="120" width="10" height="40" rx="3" fill="#ffffff" fill-opacity="0.89"/>
+<text x="505" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">00</text>
+<rect x="515" y="152" width="10" height="8" rx="3" fill="#ffffff" fill-opacity="0.46"/>
+<rect x="531" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="546" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="551" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">03</text>
+<rect x="562" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="577" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="592" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="597" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">06</text>
+<rect x="608" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="623" y="152" width="10" height="8" rx="3" fill="#ffffff" fill-opacity="0.46"/>
+<rect x="639" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="644" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">09</text>
+<rect x="654" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="669" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="685" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="690" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">12</text>
+<rect x="700" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="716" y="144" width="10" height="16" rx="3" fill="#ffffff" fill-opacity="0.57"/>
+<rect x="731" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="736" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">15</text>
+<rect x="746" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="762" y="144" width="10" height="16" rx="3" fill="#ffffff" fill-opacity="0.57"/>
+<rect x="777" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<text x="782" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">18</text>
+<rect x="793" y="136" width="10" height="24" rx="3" fill="#ffffff" fill-opacity="0.68"/>
+<rect x="808" y="112" width="10" height="48" rx="3" fill="#ffffff" fill-opacity="1.00"/>
+<rect x="823" y="152" width="10" height="8" rx="3" fill="#ffffff" fill-opacity="0.46"/>
+<text x="828" y="178" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#a1a1aa">21</text>
+<rect x="839" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="854" y="157" width="10" height="3" rx="3" fill="#ffffff" fill-opacity="0.07"/>
 </svg>

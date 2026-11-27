@@ -1,43 +1,49 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Sharon, backend developer</title>
-  <desc id="desc">Sharon is a backend developer building Discord bots, audio servers and automation in Python, Java and TypeScript. Right now: building Melora, making Minecraft horror videos, into async systems and CI.</desc>
+  <desc id="desc">Sharon. Backend developer building Discord bots, audio servers and automation. Python, Java, TypeScript, Docker, Lavalink.</desc>
   <defs>
-    <radialGradient id="glow" cx="600" cy="-40" r="620" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ffffff" stop-opacity="0.07"/>
+    <radialGradient id="glow" cx="300" cy="-60" r="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.06"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.07"/>
-    </pattern>
   </defs>
-  <rect width="1200" height="340" rx="20" fill="#09090b"/>
-  <rect width="1200" height="340" rx="20" fill="url(#grid)"/>
-  <rect width="1200" height="340" rx="20" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="1199" height="339" rx="19.5" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect width="1200" height="240" rx="20" fill="#09090b"/>
+  <rect width="1200" height="240" rx="20" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="239" rx="19.5" stroke="#ffffff" stroke-opacity="0.12"/>
 
-  <circle cx="44" cy="40" r="5" fill="#ffffff" fill-opacity="0.35"/>
-  <circle cx="62" cy="40" r="5" fill="#ffffff" fill-opacity="0.22"/>
-  <circle cx="80" cy="40" r="5" fill="#ffffff" fill-opacity="0.14"/>
-  <text x="104" y="45" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#71717a">sharon ~ backend.dev</text>
-  <line x1="1" y1="68" x2="1199" y2="68" stroke="#ffffff" stroke-opacity="0.06"/>
+  <text x="56" y="62" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#71717a">sharon ~ backend.dev</text>
+  <text x="54" y="136" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="68" font-weight="600" letter-spacing="-2.5" fill="#ffffff">Sharon</text>
+  <text x="56" y="172" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#a1a1aa">Backend developer. Discord bots, audio servers, automation.</text>
+  <text x="56" y="204" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#71717a">Python  ·  Java  ·  TypeScript  ·  Docker  ·  Lavalink</text>
 
-  <text x="44" y="150" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="62" font-weight="600" letter-spacing="-2" fill="#ffffff">Hi, I'm Sharon.</text>
-  <text x="46" y="196" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#a1a1aa">Backend developer building Discord bots,</text>
-  <text x="46" y="224" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#a1a1aa">audio servers and automation.</text>
-  <rect x="44" y="256" width="74" height="30" rx="9" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/><text x="81.0" y="275.5" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4d4d8">Python</text>
-  <rect x="128" y="256" width="58" height="30" rx="9" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/><text x="157.0" y="275.5" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4d4d8">Java</text>
-  <rect x="196" y="256" width="107" height="30" rx="9" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/><text x="249.5" y="275.5" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4d4d8">TypeScript</text>
-  <rect x="313" y="256" width="74" height="30" rx="9" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/><text x="350.0" y="275.5" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4d4d8">Docker</text>
-  <rect x="397" y="256" width="90" height="30" rx="9" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/><text x="442.0" y="275.5" text-anchor="middle" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d4d4d8">Lavalink</text>
-
-  <rect x="704" y="92" width="448" height="228" rx="16" fill="#111115" stroke="#ffffff" stroke-opacity="0.1"/>
-  <line x1="720" y1="92.5" x2="1136" y2="92.5" stroke="#ffffff" stroke-opacity="0.14"/>
-  <text x="736" y="122" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#a1a1aa">right now</text>
-  <text x="736" y="160" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.2" fill="#71717a">BUILDING</text><text x="736" y="178" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#f4f4f6">Melora, a Discord music bot</text>
-  <line x1="736" y1="192" x2="1124" y2="192" stroke="#ffffff" stroke-opacity="0.06"/>
-  <text x="736" y="202" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.2" fill="#71717a">MAKING</text><text x="736" y="220" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#f4f4f6">Minecraft horror videos</text>
-  <line x1="736" y1="234" x2="1124" y2="234" stroke="#ffffff" stroke-opacity="0.06"/>
-  <text x="736" y="244" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.2" fill="#71717a">INTO</text><text x="736" y="262" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#f4f4f6">Async systems and CI</text>
-  <line x1="736" y1="276" x2="1124" y2="276" stroke="#ffffff" stroke-opacity="0.06"/>
-  <text x="736" y="286" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.2" fill="#71717a">CHANNEL</text><text x="736" y="304" font-family="Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#f4f4f6">AvarathyGaming on YouTube</text>
+  <rect x="716" y="100" width="6" height="41" rx="3" fill="#ffffff" fill-opacity="0.57"/>
+  <rect x="730" y="86" width="6" height="69" rx="3" fill="#ffffff" fill-opacity="0.74"/>
+  <rect x="744" y="77" width="6" height="86" rx="3" fill="#ffffff" fill-opacity="0.83"/>
+  <rect x="758" y="78" width="6" height="85" rx="3" fill="#ffffff" fill-opacity="0.80"/>
+  <rect x="772" y="86" width="6" height="68" rx="3" fill="#ffffff" fill-opacity="0.67"/>
+  <rect x="786" y="100" width="6" height="39" rx="3" fill="#ffffff" fill-opacity="0.48"/>
+  <rect x="800" y="114" width="6" height="12" rx="3" fill="#ffffff" fill-opacity="0.31"/>
+  <rect x="814" y="102" width="6" height="35" rx="3" fill="#ffffff" fill-opacity="0.43"/>
+  <rect x="828" y="98" width="6" height="45" rx="3" fill="#ffffff" fill-opacity="0.47"/>
+  <rect x="842" y="100" width="6" height="39" rx="3" fill="#ffffff" fill-opacity="0.42"/>
+  <rect x="856" y="108" width="6" height="23" rx="3" fill="#ffffff" fill-opacity="0.33"/>
+  <rect x="870" y="112" width="6" height="15" rx="3" fill="#ffffff" fill-opacity="0.29"/>
+  <rect x="884" y="107" width="6" height="26" rx="3" fill="#ffffff" fill-opacity="0.32"/>
+  <rect x="898" y="108" width="6" height="23" rx="3" fill="#ffffff" fill-opacity="0.30"/>
+  <rect x="912" y="114" width="6" height="13" rx="3" fill="#ffffff" fill-opacity="0.25"/>
+  <rect x="926" y="100" width="6" height="39" rx="3" fill="#ffffff" fill-opacity="0.34"/>
+  <rect x="940" y="88" width="6" height="65" rx="3" fill="#ffffff" fill-opacity="0.41"/>
+  <rect x="954" y="79" width="6" height="82" rx="3" fill="#ffffff" fill-opacity="0.45"/>
+  <rect x="968" y="78" width="6" height="83" rx="3" fill="#ffffff" fill-opacity="0.43"/>
+  <rect x="982" y="87" width="6" height="66" rx="3" fill="#ffffff" fill-opacity="0.35"/>
+  <rect x="996" y="102" width="6" height="36" rx="3" fill="#ffffff" fill-opacity="0.26"/>
+  <rect x="1010" y="112" width="6" height="17" rx="3" fill="#ffffff" fill-opacity="0.20"/>
+  <rect x="1024" y="98" width="6" height="43" rx="3" fill="#ffffff" fill-opacity="0.25"/>
+  <rect x="1038" y="92" width="6" height="56" rx="3" fill="#ffffff" fill-opacity="0.25"/>
+  <rect x="1052" y="94" width="6" height="53" rx="3" fill="#ffffff" fill-opacity="0.23"/>
+  <rect x="1066" y="101" width="6" height="38" rx="3" fill="#ffffff" fill-opacity="0.19"/>
+  <rect x="1080" y="111" width="6" height="18" rx="3" fill="#ffffff" fill-opacity="0.15"/>
+  <rect x="1094" y="112" width="6" height="17" rx="3" fill="#ffffff" fill-opacity="0.14"/>
+  <rect x="1108" y="110" width="6" height="19" rx="3" fill="#ffffff" fill-opacity="0.13"/>
+  <rect x="1122" y="114" width="6" height="12" rx="3" fill="#ffffff" fill-opacity="0.12"/>
 </svg>

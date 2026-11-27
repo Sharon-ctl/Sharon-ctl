@@ -43,31 +43,30 @@ def render(weekdays: Counter, hours: Counter, total: int) -> str:
     max_day = max(weekdays.values(), default=1)
     max_hour = max(hours.values(), default=1)
     parts = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="title desc">',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="900" height="216" viewBox="0 0 900 216" role="img" aria-labelledby="title desc">',
         '<title id="title">Recent public push activity</title>',
         f'<desc id="desc">{total} recent public push events, grouped by weekday and by UTC hour.</desc>',
-        '<rect width="900" height="250" rx="18" fill="#111115"/>',
-        '<rect x="0.5" y="0.5" width="899" height="249" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>',
-        '<line x1="19" y1="0.5" x2="881" y2="0.5" stroke="#ffffff" stroke-opacity="0.16"/>',
-        f'<text x="32" y="46" font-family="{SANS}" font-size="18" font-weight="600" fill="#ffffff">Push activity</text>',
-        f'<text x="32" y="68" font-family="{MONO}" font-size="12" fill="#71717a">last {total} public pushes · UTC</text>',
-        f'<text x="32" y="104" font-family="{MONO}" font-size="11" letter-spacing="1" fill="#71717a">BY WEEKDAY</text>',
+        '<rect width="900" height="216" rx="18" fill="#111115"/>',
+        '<rect x="0.5" y="0.5" width="899" height="215" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>',
+        f'<text x="32" y="42" font-family="{SANS}" font-size="16" font-weight="600" fill="#ffffff">Push activity</text>',
+        f'<text x="32" y="62" font-family="{MONO}" font-size="12" fill="#71717a">last {total} public pushes · UTC</text>',
+        f'<text x="32" y="92" font-family="{MONO}" font-size="11" letter-spacing="1" fill="#71717a">BY WEEKDAY</text>',
     ]
     for i, day in enumerate(DAYS):
-        x, base = 32 + i * 60, 178
+        x, base = 32 + i * 60, 160
         value = weekdays[i]
-        height = max(3, round(52 * value / max_day)) if value else 3
-        parts.append(bar(x, base - height, 40, height, value, max_day))
-        parts.append(f'<text x="{x + 20}" y="196" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#a1a1aa">{day}</text>')
-        parts.append(f'<text x="{x + 20}" y="214" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#f4f4f6">{value}</text>')
-    parts.append(f'<text x="500" y="104" font-family="{MONO}" font-size="11" letter-spacing="1" fill="#71717a">BY HOUR</text>')
+        height = max(3, round(48 * value / max_day)) if value else 3
+        parts.append(bar(x, base - height, 34, height, value, max_day))
+        parts.append(f'<text x="{x + 17}" y="178" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#a1a1aa">{day}</text>')
+        parts.append(f'<text x="{x + 17}" y="196" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#f4f4f6">{value}</text>')
+    parts.append(f'<text x="500" y="92" font-family="{MONO}" font-size="11" letter-spacing="1" fill="#71717a">BY HOUR</text>')
     for hour in range(24):
         x = 500 + hour * 15.4
         value = hours[hour]
-        height = max(3, round(52 * value / max_hour)) if value else 3
-        parts.append(bar(round(x), 178 - height, 10, height, value, max_hour))
+        height = max(3, round(48 * value / max_hour)) if value else 3
+        parts.append(bar(round(x), 160 - height, 10, height, value, max_hour))
         if hour % 3 == 0:
-            parts.append(f'<text x="{round(x + 5)}" y="196" text-anchor="middle" font-family="{MONO}" font-size="10" fill="#a1a1aa">{hour:02d}</text>')
+            parts.append(f'<text x="{round(x + 5)}" y="178" text-anchor="middle" font-family="{MONO}" font-size="10" fill="#a1a1aa">{hour:02d}</text>')
     parts.append("</svg>")
     return "\n".join(parts) + "\n"
 

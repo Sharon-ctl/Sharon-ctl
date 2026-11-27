@@ -52,9 +52,9 @@ def workflow_for(repo: dict) -> tuple[str, dict | None, dict | None]:
 
 def ci_label(workflow_name: str, run: dict | None) -> str:
     if workflow_name == "No CI configured":
-        return "No CI configured"
+        return "None"
     if run is None:
-        return f"{workflow_name}: awaiting first run"
+        return "Waiting"
 
     state = run.get("status")
     conclusion = run.get("conclusion")
@@ -71,7 +71,7 @@ def ci_label(workflow_name: str, run: dict | None) -> str:
     else:
         label = "Unknown"
 
-    return f"[{label} ({markdown_cell(workflow_name)})]({run['html_url']})"
+    return f"[{label}]({run['html_url']})"
 
 
 def utc_date(value: str) -> str:
@@ -92,7 +92,7 @@ def generate_table() -> str:
     originals.sort(key=lambda repo: repo["name"].lower())
 
     rows = [
-        "| Project | CI / checks | Last push (UTC) | Open issues / PRs |",
+        "| Project | CI | Last push | Open |",
         "| --- | --- | --- | ---: |",
     ]
     for repo in originals:
