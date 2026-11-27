@@ -21,9 +21,9 @@ I build things that keep running without me watching them. Mostly Discord music 
 <!-- PROJECT_STATUS:START -->
 | Project | CI | Last push | Open |
 | --- | --- | --- | ---: |
-| [Melora-Java](https://github.com/Sharon-ctl/Melora-Java) | [Passing](https://github.com/Sharon-ctl/Melora-Java/actions/runs/45877217559) | 2026-11-17 | 2 |
-| [Melora.js](https://github.com/Sharon-ctl/Melora.js) | [Passing](https://github.com/Sharon-ctl/Melora.js/actions/runs/45876372141) | 2026-11-17 | 1 |
-| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Passing](https://github.com/Sharon-ctl/Melora.py/actions/runs/45875758349) | 2026-11-23 | 1 |
+| [Melora-Java](https://github.com/Sharon-ctl/Melora-Java) | [Passing](https://github.com/Sharon-ctl/Melora-Java/actions/runs/46049266747) | 2026-11-17 | 2 |
+| [Melora.js](https://github.com/Sharon-ctl/Melora.js) | [Passing](https://github.com/Sharon-ctl/Melora.js/actions/runs/46048264978) | 2026-11-17 | 1 |
+| [Melora.py](https://github.com/Sharon-ctl/Melora.py) | [Passing](https://github.com/Sharon-ctl/Melora.py/actions/runs/46047421832) | 2026-11-23 | 1 |
 | [Online-fix-request-sending-dc-bot](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot) | [Passing](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot/actions/runs/43989659317) | 2026-11-17 | 0 |
 | [Sharon-ctl.github.io](https://github.com/Sharon-ctl/Sharon-ctl.github.io) | [Passing](https://github.com/Sharon-ctl/Sharon-ctl.github.io/actions/runs/45762833461) | 2026-11-26 | 0 |
 | [YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-) | None | 2026-11-17 | 0 |
