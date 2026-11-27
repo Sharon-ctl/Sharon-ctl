@@ -1,42 +1,24 @@
-<div align="center">
-  <img src="./assets/profile-banner.svg" alt="Sharon — building thoughtful software for sound, systems, and play" width="100%" />
-  <br />
-  <a href="https://discord.gg/KUAVNSJtu5"><img src="https://img.shields.io/badge/Discord-Connect-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://sharon-ctl.github.io/"><img src="https://img.shields.io/badge/Portfolio-Visit-65D6C4?style=flat-square&logo=vercel&logoColor=111827" alt="Portfolio" /></a>
-</div>
+<img src="./assets/profile-banner.svg" alt="Hi, I'm Sharon. Backend developer building Discord bots, audio servers and automation." width="100%" />
 
-<div align="center">
-  <sub><a href="#original-projects">Projects</a> &nbsp;·&nbsp; <a href="#live-project-status">Project status</a> &nbsp;·&nbsp; <a href="#recent-work-pattern">Activity</a> &nbsp;·&nbsp; <a href="#contact">Contact</a></sub>
-</div>
+I'm a backend developer from India. I mostly write Python, Java and TypeScript, and I like building things that keep running without me watching them: Discord music bots, audio servers, automation. I also run [AvarathyGaming](https://www.youtube.com/@AvarathyGaming), a Malayalam Minecraft horror channel.
 
-## Hi, I'm Sharon
+[Portfolio](https://sharon-ctl.github.io/) · [YouTube](https://www.youtube.com/@AvarathyGaming) · [Discord](https://discord.com/invite/KUAVNSJtu5) · [Instagram](https://instagram.com/sharon__y_)
 
-I build software around **real-time audio, resilient services, and useful developer tools**. I care about responsive async systems, thoughtful failure handling, and interfaces that make complex tools easy to use.
+## Projects
 
-## Original projects
+<a href="https://github.com/Sharon-ctl/Melora.py"><img src="./assets/melora-card.svg" alt="Melora: one Discord music bot in Python, Java and TypeScript" width="100%" /></a>
 
-These are my original public projects; forked repositories are left out.
+**[Melora](https://github.com/Sharon-ctl/Melora.py)** is a Discord music bot I wrote three times. The Python version is built to run unattended, with crash-recovery supervisors, health watchdogs, a sliding-window rate limiter and 171 tests that run on every push. [Java](https://github.com/Sharon-ctl/Melora-Java) handles audio across many servers at once with multiple threads. [TypeScript](https://github.com/Sharon-ctl/Melora.js) is the small, typed one with slash commands.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Sharon-ctl/Melora.py"><img src="./assets/melora-card.svg" alt="Melora — Java, Python, and TypeScript Discord music bots" width="100%" /></a>
-      <h3><a href="https://github.com/Sharon-ctl/Melora.py">Melora music bots</a></h3>
-      <p>A family of self-hosted Discord music bots. Python focuses on multi-node Lavalink resilience and recovery; Java offers a broad feature set; TypeScript keeps the core experience lightweight.</p>
-      <p><a href="https://github.com/Sharon-ctl/Melora.py">Python</a> · <a href="https://github.com/Sharon-ctl/Melora-Java">Java</a> · <a href="https://github.com/Sharon-ctl/Melora.js">TypeScript</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Sharon-ctl/YT-Downloader-">YTDL Toolkit</a></h3>
-      <p>A Windows media workflow built around yt-dlp and FFmpeg, with guided downloads, playlists, subtitles, metadata, format choices, and maintenance.</p>
-      <p><code>PowerShell</code> <code>yt-dlp</code> <code>FFmpeg</code></p>
-      <h3><a href="https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot">Online-Fix Tracker</a></h3>
-      <p>A Discord bot that monitors game-release RSS updates, translates them, and posts searchable, paginated updates to configured channels.</p>
-      <p><code>Python</code> <code>Discord</code> <code>RSS</code></p>
-    </td>
-  </tr>
-</table>
+**[Online-Fix Tracker](https://github.com/Sharon-ctl/Online-fix-request-sending-dc-bot)** polls an RSS feed, drops duplicates, translates the Russian posts into English and sends them to Discord.
 
-## Live project status
+**[YTDL Toolkit](https://github.com/Sharon-ctl/YT-Downloader-)** is a PowerShell front end for yt-dlp and FFmpeg where you pick the video and audio formats you want.
+
+More on the [portfolio](https://sharon-ctl.github.io/#projects) or [all repositories](https://github.com/Sharon-ctl?tab=repositories).
+
+## Status
+
+Build status of my own repos, refreshed hourly from the GitHub API.
 
 <!-- PROJECT_STATUS:START -->
 | Project | CI / checks | Last push (UTC) | Open issues / PRs |
@@ -49,33 +31,14 @@ These are my original public projects; forked repositories are left out.
 | [YT-Downloader-](https://github.com/Sharon-ctl/YT-Downloader-) | No CI configured | 2026-11-17 | 0 |
 <!-- PROJECT_STATUS:END -->
 
-Status is refreshed hourly from GitHub for original public repositories only. Forks and this profile repository are excluded.
+<img src="./assets/push-activity.svg" alt="Chart of recent public pushes by weekday and by UTC hour" width="100%" />
 
-## Recent work pattern
+## Stack
 
-<div align="center">
-  <img src="./assets/push-activity.svg" alt="Chart of public GitHub push activity by weekday and UTC hour" width="100%" />
-</div>
-
-This chart summarizes timestamps from the latest public GitHub events available to the profile updater. It describes **when public pushes appeared**, not a work schedule or availability promise. Times are UTC; GitHub limits the event sample, so this is a recent snapshot rather than a complete lifetime history.
-
-## What I work with
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord.py" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-</div>
-
-**Areas I enjoy:** asynchronous systems · audio and media pipelines · bot architecture · automation · reliability and performance
+- **Languages:** Python, Java, TypeScript, JavaScript, PowerShell, SQL
+- **Frameworks:** discord.py, JDA, Lavalink, Lavaplayer, asyncio, Pytest
+- **Tools:** Docker, GitHub Actions, Git, FFmpeg, yt-dlp, SQLite
 
 ## Contact
 
-Open to interesting work and collaboration. [Get in touch on Discord](https://discord.gg/KUAVNSJtu5) or [browse my projects](https://github.com/Sharon-ctl?tab=repositories).
-
-<div align="center">
-  <sub>Thanks for stopping by — feel free to explore, open an issue, or say hello.</sub>
-</div>
+Discord is the quickest way to reach me: [join the server](https://discord.com/invite/KUAVNSJtu5).
