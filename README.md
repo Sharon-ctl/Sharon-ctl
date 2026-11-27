@@ -1,4 +1,4 @@
-<img src="./assets/profile-banner.svg" alt="Sharon. Backend developer building Discord bots, audio servers and automation." width="100%" />
+<img src="./assets/banner.svg" alt="Sharon. Backend developer building Discord bots, audio servers and automation." width="100%" />
 
 I build things that keep running without me watching them. Mostly Discord music bots, audio servers and automation, in Python, Java and TypeScript. In my free time I make Malayalam Minecraft horror videos on [AvarathyGaming](https://www.youtube.com/@AvarathyGaming).
 
